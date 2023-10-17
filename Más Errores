@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+float Pf(float num){
+	
+	float p;
+	p=4*num;
+	return p;
+}
+
+float Af(float num){
+	
+	float a;
+	a= num*num;
+	return a;
+}
+
+int main (){
+	
+	float num;
+	printf ("Lado de un cuadrado:");
+	scanf("%f",&num);
+	
+	printf("Perimetro: %f\n",Pf(num));
+	printf("Area: %f\n", Af(num));
+	
+	return 0;
+}
